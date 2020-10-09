@@ -2725,7 +2725,7 @@
 		}
 
 	#header {
-		color: #d4e0ef;
+		color: #FFFFFF;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -2743,7 +2743,7 @@
 		}
 
 		#header .logo {
-			color: #ffffff;
+			color: #FFFFFF;
 			display: inline-block;
 			font-weight: 600;
 			height: inherit;
