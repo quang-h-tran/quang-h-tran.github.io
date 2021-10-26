@@ -1792,7 +1792,7 @@
 	}
 
 		section.wrapper header, article.wrapper header {
-			margin-bottom: 2.0em;
+			margin-bottom: 5.0em;
 			text-align: center;
 		}
 
@@ -2791,7 +2791,7 @@
 			}
 
 				#header a.navPanelToggle .fa {
-					font-size: 10.0em;
+					font-size: 5.0em;
 				}
 
 				@media screen and (max-width: 980px) {
