@@ -1658,7 +1658,7 @@
 		color: #000000;
 		font-weight: 400;
 		line-height: 1.5;
-		margin: 0 0 0.5em 0;
+		margin: auto;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2783,6 +2783,7 @@
 				height: 4em;
 				width: 4em;
 				z-index: 10003;
+				font-size: 7.0em;
 			}
 
 				#header a.navPanelToggle .fa {
