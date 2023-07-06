@@ -18,6 +18,9 @@ showcase:
                 </p>'
   image:
     x: "img/showcase/mcdonald.jpg"
+    _2x: "img/showcase/mcdonald.jpg"
+  imageMobile:
+    x: "img/showcase/mcdonald.jpg"
 
   button:
     icon: "icon-mail-fill"
@@ -45,6 +48,7 @@ about:
     </p>'
   image:
     x: "img/who-am-i/IMG_6705_uncropped.jpeg"
+    _2x: "img/who-am-i/IMG_6705_uncropped.jpeg"
 
 # education
 education:
