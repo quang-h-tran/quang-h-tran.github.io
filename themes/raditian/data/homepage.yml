@@ -17,10 +17,10 @@ showcase:
                 I am currently on the job market for post-doctoral positions. If you are interested in my work, please take a look at my <a href="#CV">CV</a> or contact me below!
                 </p>'
   image:
-    x: "img/showcase/mcdonald.jpg"
-    _2x: "img/showcase/mcdonald.jpg"
+    x: "img/showcase/mcdonald_compressed.jpg"
+    _2x: "img/showcase/mcdonald_compressed.jpg"
   imageMobile:
-    x: "img/showcase/mcdonald.jpg"
+    x: "img/showcase/mcdonald_compressed.jpg"
 
   button:
     icon: "icon-mail-fill"
@@ -47,8 +47,8 @@ about:
     and searching for the best boba milk tea (ask for recs!).
     </p>'
   image:
-    x: "img/who-am-i/IMG_6705_uncropped.jpeg"
-    _2x: "img/who-am-i/IMG_6705_uncropped.jpeg"
+    x: "img/who-am-i/who-am-i_compressed.jpeg"
+    _2x: "img/who-am-i/who-am-i_compressed.jpeg"
 
 # education
 education:
