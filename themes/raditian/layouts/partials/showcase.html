@@ -1,13 +1,14 @@
 {{ if .Site.Data.homepage.showcase.enable }}
-<section class="rad-showcase rad-showcase--index rad-animation-group">
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
   <div class="rad-showcase__bg">
-    <img
+    <!--<img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
       data-src="{{ .Site.Data.homepage.showcase.image.x | absURL }}"
       data-srcset="{{ .Site.Data.homepage.showcase.image.x | absURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | absURL }} 2x"
       alt="{{ .Site.Data.homepage.showcase.image.alt }}"
-    />
+    />-->
+    <img style="max-height:450px;max-width:560px;margin-top:5px;margin-left:-45px;" src="{{ .Site.Data.homepage.showcase.image.x }}"/>
   </div>
   <div class="container">
     <div class="row">
