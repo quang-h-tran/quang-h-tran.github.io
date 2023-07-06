@@ -1,0 +1,255 @@
+# showcase
+showcase:
+  enable: true
+  title: "Quang H. Tran"
+  description: '<p class="lead">
+                I am a 6th-year graduate student in the <a target="_blank" href="https://astronomy.utexas.edu/"">Department of Astronomy @ UT Austin</a>
+                working with <a target="_blank" href="http://www.as.utexas.edu/~bpbowler/index.html">Prof. Brendan P. Bowler</a>.
+                I<span>&#39;</span>m generally excited about all things astronomy, but my particular interests include giant planets, young stars, stellar variability, and statistics.
+                </p>
+                <p class="lead">
+                I<span>&#39;</span>m a 2019 Future Investigators in NASA Earth and Space Science and Technology
+                <a target="_blank" href="https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=753338/solicitationId=%7BE16CD59F-29DD-06C0-8971-CE1A9C252FD4%7D/viewSolicitationDocument=1/FINESST%20ASTRO20%20Proposal%20Selections.pdf">(FINESST) grant recipient</a>,
+                a member of the 2021 inaugural cohort of the <a target="_blank" href="https://exoplanets.nasa.gov/exep/exopag/exoexplorers/exoexplorers-welcome/">Exoplanet Explorers (ExoExplorers)</a>,
+                and was a 2021 <a target="_blank" href="https://www.simonsfoundation.org/flatiron-institute-center-for-computational-astrophysics-pre-doctoral-program">Simons Foundation CCA Pre-doctoral fellow</a>.
+                </p>
+                <p class="lead">
+                I am currently on the job market for post-doctoral positions. If you are interested in my work, please take a look at my <a href="#CV">CV</a> or contact me below!
+                </p>'
+  image:
+    x: "img/showcase/mcdonald.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Me"
+    URL: "mailto:quangtran@utexas.edu"
+
+
+# about
+about:
+  enable: true
+  title: "About Me"
+  content: '<p class="lead">
+    I am primarily interested in the migration and evolution of giant planetary systems.
+    I also hunt for exoplanets using precision radial velocities from the ground and photometry from space.
+    </p>
+    <p class="lead">
+    My current research projects focus on searching for giant planets around young stars using precision radial velocities.
+    I am also working on how best to model and ultimately mitigate stellar activity signals in astronomical time series data
+    (particularly with Gaussian process regression).
+    In general, I want to understand the underlying, population-level demographics of planets through probabilistic data analysis techniques.
+    </p>
+    <p class="lead">
+    When I<span>&#39;</span>m not doing research, I enjoy weightlifting, being bad at pool (always down for a game),
+    and searching for the best boba milk tea (ask for recs!).
+    </p>'
+  image:
+    x: "img/who-am-i/IMG_6705_uncropped.jpeg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "The University of Chicago"
+      year: "2018"
+      degree: "A.B., Physics"
+      advisor: ""
+
+    - university: "The University of Texas at Austin"
+      year: "Expected Spring 2024"
+      degree: "Ph.D., Astronomy & Astrophysics"
+      advisor: "Advisor: Brendan P. Bowler"
+
+# Client & Work
+client_and_work:
+  title: "Research Interests"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/nir_prv.png"
+        url: "#portfolio"
+        url2: "https://ui.adsabs.harvard.edu/abs/2021AJ....161..173T/abstract"
+
+    - logo:
+        x: "img/clients/evo_migrate.png"
+        url2: "https://ui.adsabs.harvard.edu/abs/2021AJ....161..173T/abstract"
+        url: "https://ui.adsabs.harvard.edu/abs/2022AJ....163..225T/abstract"
+
+    - logo:
+          x: "img/clients/discover_characterize.png"
+          url2: "https://ui.adsabs.harvard.edu/abs/2022AJ....163..225T/abstract"
+          url: "https://ui.adsabs.harvard.edu/abs/2023ApJ...950..162T/abstract"
+
+    - logo:
+          x: "img/clients/GPs.png"
+          url: "#portfolio"
+          url2: "https://ui.adsabs.harvard.edu/abs/2023ApJ...950..162T/abstract"
+
+  works:
+    - title: "Evolution & Migration of Giant Planets"
+      title_style: "font-size:28px"
+      description: '<b>One of my primary research interests is how the orbits of giant planets evolve over time.</b>
+                    To answer this question, I am leading a 4-year precision radial velocity (PRV) survey
+                    targeting <span>&#8776;</span>100 intermediate-age (~20-200 Myr) Sun-like (GK dwarf) stars with the
+                    <a target="_blank" href="https://hpf.psu.edu/">Habitable-Zone Planet Finder (HPF)</a> spectrograph.
+                    This survey will measure the occurrence rate of close-in (<2.5 AU) giant planets,
+                    compare this value with the frequency at older ages, and determine the dominant
+                    migration mechanism of giant planets and its characteristic timescale (see right!).
+                    The first paper describing the survey design, data reduction pipeline, and initial results can be found below!'
+      button:
+        icon: "icon-arrow-right"
+        btnText: "NASA ADS Link"
+        URL: "https://ui.adsabs.harvard.edu/abs/2021AJ....161..173T/abstract"
+      image:
+        x: "img/works/paper1_plot.gif"
+        hori: -200px
+        vert: 35px
+      is_even: true
+      double_img: false
+
+    - title: "Characterizing Individual Systems,
+              <br/>
+              Inferring Population Statistics"
+      title_style: "font-size:28px"
+      description: '<p class="lead">Another approach I take to this question is the characterization of systems hosting giant planets.
+                    By performing detailed studies of systems with uncommon architectures, we can build a sample large enough to infer population-level statistics and trends.
+                    </p>
+                    <p class="lead">
+                    One such system was TOI-1670, which hosted an inner Sub-Neptune and outer warm Jupiter (WJ) (see left).
+                    The modest population of systems with this unique configuration all have near-zero orbital eccentricties,
+                    whereas the eccentricities of other WJs are more widely distributed (see left), suggesting that these systems
+                    may have formed and migrated along a similar evolutionary pathway. For more information, see the paper below!
+                    </p>'
+      button:
+        icon: "icon-arrow-right"
+        btnText: "NASA ADS Link"
+        URL: "https://ui.adsabs.harvard.edu/abs/2022AJ....163..225T/abstract"
+      image:
+        x: "img/works/paper2_plot.jpg"
+        hori: 0px
+        vert: 90px
+      is_even: false
+      double_img: false
+
+    - title: "Modeling Stellar Activity Signals <br/> (with Gaussian Processes)"
+      title_style: "font-size:28px"
+      description: '<p class="lead">
+                    Detection limits for low mass, Earth-sized planets and planets around young, active stars are increasingly dominated by intrinsic stellar variability.
+                    To conduct population-level inference and detailed individual studies on these interesting systems,
+                    <b>we need advanced methods that can distinguish non-dynamical variations from Keplerian motion.</b>
+                    </p>
+                    <p class="lead">
+                    I used the <a target="_blank" href="https://luger.dev/starry-about.html"><b style="color:#e0a800;font-weight:bold;font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New";>
+                    starry</b></a> <a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2019AJ....157...64L/abstract">(Luger et al. 2019)</a> open software package to simulate quasi-periodic, spot-drive activity signals
+                    in photometry and RVs (right, top panel).
+                    Then, I created a Gaussian process framework that simultaneously models stellar variability in both photometry and RVs. Using the synthetic dataset above,
+                    I demonstrate that this Two Latent GP approach can predict spot-driven RV variations with greater accuracy than other GP approaches (right, bottom three panels).
+                    For more information on how to simulate time series with <a target="_blank" href="https://luger.dev/starry-about.html"><b style="color:#e0a800;font-weight:bold;font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New";>
+                    starry</b></a> or the 2 GP framework, check out the paper below!
+                    </p>'
+      button:
+        icon: "icon-arrow-right"
+        btnText: "NASA ADS Link"
+        URL: "https://ui.adsabs.harvard.edu/abs/2023ApJ...950..162T/abstract"
+      image:
+        x: "img/works/paper3_plot.gif"
+        x2: "img/works/paper3_plot1.jpg"
+        hori: 0px
+        vert: 85px
+      is_even: true
+      double_img: true
+
+
+# experience
+experience:
+  enable: true
+  title: "Select First-author <br /> Refereed Publications"
+  description: "First-author Refereed Publications: 4, Total Refereed Publications: 10.
+                <br />
+                Total First-author Citations: 14, Total Citations: 49.
+                <br />
+                First-author <em>h</em>-index: 3, Total <em>h</em>-index: 4."
+  button:
+    icon: "icon-profile-fill"
+    btnText: "Full CV [pdf]"
+    URL: "Quang_Tran_CV_v2.pdf"
+  button2:
+    icon: "nasa-ads-fill"
+    btnText: "NASA ADS"
+    URL: "https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-6532-6755&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+  button3:
+    icon: "icon-profile-fill"
+    btnText: "ORCID iD"
+    URL: "https://orcid.org/0000-0001-6532-6755"
+  button4:
+    icon: "icon-profile-fill"
+    btnText: "Google Scholar"
+    URL: "https://scholar.google.com/citations?hl=en&user=Yl6rmCkAAAAJ"
+
+  items:
+    - title: "Joint Modeling of Radial Velocities and Photometry with a Gaussian Process Framework"
+      company: "Tran, Q. H. et al; 2023, AJ, 950, 162"
+      url: "https://ui.adsabs.harvard.edu/abs/2023ApJ...950..162T/abstract"
+
+    - title: "TOI-1670 b and c: An Inner Sub-Neptune with an Outer Warm Jupiter Unlikely to Have Originated from High-eccentricity Migration"
+      company: "Tran, Q. H. et al; 2022 AJ, 163, 225"
+      url: "https://ui.adsabs.harvard.edu/abs/2022AJ....163..225T/abstract"
+
+    - title: "The Epoch of Giant Planet Migration: A Near-Infrared RV Survey for Giant Planets Around Young Sun-like Stars"
+      company: "Tran, Q. H. et al; 2021, AJ, 161, 173"
+      url: "https://ui.adsabs.harvard.edu/abs/2021AJ....161..173T/abstract"
+
+# testimonial
+testimonial:
+  enable: true
+  title: '<h2
+          style="text-align:left;font-size:30px;">Select Awards & Honors
+            <span style="float:right;font-size:30px;">
+                Select PI Observing Programs
+            </span>
+          </h2>'
+
+  items:
+    - content:
+        award: "Fred T. Goetting Jr. Memorial Endowed Presidential Scholarship (2021)"
+        program: "Hobby-Eberly Telescope (HPF), 442.5 hours"
+    - content:
+        award: "Flatiron Institute CCA Pre-doctoral Fellow (2021)"
+        program: "Gemini-North Telescope (MAROON-X), 12.8 hours"
+    - content:
+        award: "NASA FINESST Grant Recipient (2020-2023)"
+        program: "WIYN Observatory (NEID), 3.79 nights"
+    - content:
+        award: "UT Austin Graduate School Outstanding Master’s Thesis (2020)"
+        program: "WIYN Observatory (NESSI), 1.5 nights"
+    - content:
+        award: "McDonald Observatory BOV Outstanding Master's Defense Award (2020)"
+        program: "Harlan J. Smith Telescope (Tull Spectrograph), 15 nights"
+
+# contact
+contact:
+  enable: false
+  title: "Contact Me"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  email:
+    title: "Email:"
+    email: '<a target="_blank" href="mailto:quangtran@utexas.edu">quangtran@utexas.edu</a>'
+  address:
+    title: "Address:"
+    address: "The University of Texas at Austin<br />
+              Department of Astronomy<br />
+              2515 Speedway, Stop C1400<br />
+              Austin, Texas 78712-1205"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
