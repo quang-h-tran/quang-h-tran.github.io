@@ -48,12 +48,12 @@ theme = "raditian"
 
   [[menu.footer]]
   name = "About"
-  URL = "#about"
+  URL = '#about'
   weight = 2
 
   [[menu.footer]]
   name = "Research"
-  URL = "#portfolio"
+  URL = '#portfolio'
   weight = 3
 
   [[menu.footer]]
@@ -76,7 +76,7 @@ theme = "raditian"
 
   [params.logo]
     text1 = "Quang H. Tran"
-    text2 = "Graduate Student"
+    text2 = "UT Austin Graduate Student"
 
   [params.footer]
       copyright = "Design by © Raditian. All rights reserved."

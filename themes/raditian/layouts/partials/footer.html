@@ -12,7 +12,7 @@
         </li>
         {{ range .Site.Menus.footer }}
         <li class="nav-item">
-          <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}
       </ul>
