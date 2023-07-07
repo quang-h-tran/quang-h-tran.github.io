@@ -1,4 +1,4 @@
-baseURL = "https://quang-h-tran.github.io/"
+baseURL = "https://quanghtran.io" #https://quang-h-tran.github.io/
 languageCode = "en-us"
 theme = "raditian"
 
