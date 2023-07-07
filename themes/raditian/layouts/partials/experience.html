@@ -6,7 +6,7 @@
                 {{ range .Site.Data.homepage.experience.items }}
                 <div class="experience">
                     <div class="experience__date">{{ .duration }}</div>
-                    <div class="experience__title"><span><a href="#experience" onclick="window.open({{ .url }})">{{ .title }}</a></span></div>
+                    <div class="experience__title"><span><a target="_blank" href="{{ .url }}">{{ .title }}</a></span></div>
                     <!--<div class="experience__title"><b target="_blank" href="{{ .url }}">{{ .title }}</b></div>-->
                     <div class="experience__company">{{ .company }}</div>
                 </div>
