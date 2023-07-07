@@ -12,7 +12,7 @@
         <p class="lead">
           {{ .description | safeHTML }}
         </p>
-        <a style="font-size:15px;" href="#portfolio" onclick="window.open({{ .button.URL }})" class="btn btn-info">
+        <a style="font-size:15px;" target="_blank" href="{{ .button.URL }}" class="btn btn-info">
         <img width="22px" height="22px" style="float: left; margin-right: 10px;" src="../fonts/ads_partial_logo_dark_background.svg" alt="NASA ADS logo"/>
         {{ .button.btnText }}<i class="{{ .button.icon }}"></i
         ></a>

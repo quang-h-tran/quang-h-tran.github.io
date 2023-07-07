@@ -1,14 +1,13 @@
 {{ if .Site.Data.homepage.education.enable }}
 <section style="margin-top:-105px;" class="section section--border-bottom rad-animation-group">
 </section>
-<section style="margin-top:-115px;" id="CV" class="section section--border-bottom rad-animation-group">
-    <div class="container">
-        <div class="row rad-fade-down">
-            <div class="col-12">
+<section style="margin-top:-115px;z-index=10;" id="CV" class="section section--border-bottom rad-animation-group">
+    <div style="z-index=10;" class="container">
+        <div style="z-index=10;" class="row rad-fade-down">
+            <div style="z-index=10;" class="col-12">
                 <!--<h2 style="margin-top:-120px;font-size:48px;color:#ffc107;text-align:center">Curriculum Vitae-->
-                <h2 style="font-size:48px;color:#ffc107;text-align:center">Curriculum Vitae
-                  <a style="font-size:15px;margin-left:25px;" href="{{ .Site.Data.homepage.experience.button.URL | absURL }}" class="btn btn-warning"
-                     target="_blank">
+                <h2 style="margin-top:20px;z-index=10;font-size:48px;color:#ffc107;text-align:center"> Curriculum Vitae
+                  <a style="z-index=10;font-size:15px;margin-left:25px;" target="_blank" href="{{ .Site.Data.homepage.experience.button.URL | absURL }}" class="btn btn-warning">
                       <!--<i class="{{ .Site.Data.homepage.experience.button.icon }}"></i>-->
                       <img width="22px" height="22px" style="float: left; margin-right: 10px;" src="../fonts/cv.png" alt="CV logo"/>
                       Full CV [pdf]
@@ -18,12 +17,14 @@
         </div>
     </div>
 </section>
-<section style="margin-top:-120px;" id="education" class="section section--border-bottom rad-animation-group">
+<section style="margin-top:-90px;z-index=-1;" id="education" class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row rad-fade-down">
             <div class="col-12">
                 <!--<h2 style="font-size:36px;margin-top:-160px;">{{ .Site.Data.homepage.education.title }}</h2>-->
-                <h2 style="font-size:30px;">{{ .Site.Data.homepage.education.title }}</h2>
+                <h2 style="font-size:30px;">
+                  {{ .Site.Data.homepage.education.title }}
+                </h2>
                 <div class="row pt-2 pt-md-4">
                     {{ range .Site.Data.homepage.education.items }}
                     <div class="col-12 col-sm-6 mb-4 mb-sm-0">
