@@ -103,7 +103,7 @@ client_and_work:
         icon: "icon-arrow-right"
         btnText: "NASA ADS Link"
         URL: "https://ui.adsabs.harvard.edu/abs/2021AJ....161..173T/abstract"
-      button:
+      button2:
         icon: "icon-arrow-right"
         btnText: "NASA ADS Link"
         URL: "https://ui.adsabs.harvard.edu/abs/2021AJ....161..173T/abstract"
