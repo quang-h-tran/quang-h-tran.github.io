@@ -42,7 +42,7 @@ theme = "raditian"
 
   [[menu.header]]
   name = "Contact"
-  URL = "mailto:quangtran@utexas.edu"
+  URL = "mailto:nhatquanghoangtran@gmail.edu"
   weight = 5
 
 
@@ -63,7 +63,7 @@ theme = "raditian"
 
   [[menu.footer]]
   name = "Contact"
-  URL = "mailto:quangtran@utexas.edu"
+  URL = "mailto:nhatquanghoangtran@gmail.com"
   weight = 5
 
 
@@ -76,7 +76,7 @@ theme = "raditian"
 
   [params.logo]
     text1 = "Quang H. Tran"
-    text2 = "UT Austin Graduate Student"
+    text2 = "51 Pegasi b Fellow"
 
   [params.footer]
       copyright = "Design by © Raditian. All rights reserved."

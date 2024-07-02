@@ -3,18 +3,12 @@ showcase:
   enable: true
   title: "Quang H. Tran"
   description: '<p class="lead">
-                I am a 6th-year graduate student in the <a target="_blank" href="https://astronomy.utexas.edu/"">Department of Astronomy @ UT Austin</a>
-                working with <a target="_blank" href="http://www.as.utexas.edu/~bpbowler/index.html">Prof. Brendan P. Bowler</a>.
-                I<span>&#39;</span>m generally excited about all things astronomy, but my particular interests include giant planets, young stars, stellar variability, and statistics.
+                I am currently a <a target="_blank" href="https://www.hsfoundation.org/fellow/quang-h-tran/">2024 51 Pegasi b Fellow</a> at Yale University.
+                I obtained my doctorate degree from the University of Texas, Austin where I worked with <a target="_blank" href="http://www.as.utexas.edu/~bpbowler/index.html">Prof. Brendan P. Bowler</a>.
+                I<span>&#39;</span>m generally excited about all things astronomy, but my particular interests include giant planets, young stars, stellar variability, and astrostatistics.
                 </p>
                 <p class="lead">
-                I<span>&#39;</span>m a 2019 Future Investigators in NASA Earth and Space Science and Technology
-                <a target="_blank" href="https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=753338/solicitationId=%7BE16CD59F-29DD-06C0-8971-CE1A9C252FD4%7D/viewSolicitationDocument=1/FINESST%20ASTRO20%20Proposal%20Selections.pdf">(FINESST) grant recipient</a>,
-                a member of the 2021 inaugural cohort of the <a target="_blank" href="https://exoplanets.nasa.gov/exep/exopag/exoexplorers/exoexplorers-welcome/">Exoplanet Explorers (ExoExplorers)</a>,
-                and was a 2021 <a target="_blank" href="https://www.simonsfoundation.org/flatiron-institute-center-for-computational-astrophysics-pre-doctoral-program">Simons Foundation CCA Pre-doctoral fellow</a>.
-                </p>
-                <p class="lead">
-                I am currently on the job market for post-doctoral positions. If you are interested in my work, please take a look at my <a href="#CV">CV</a> or contact me below!
+                If you are interested in my work or collaborating, please take a look at my <a href="#CV">CV</a> or contact me below!
                 </p>'
   image:
     x: "img/showcase/mcdonald_compressed_cropped.jpg"
@@ -46,7 +40,7 @@ about:
     and searching for the best boba milk tea (ask for recs!).
     </p>'
   image:
-    x: "img/who-am-i/IMG_6705_cropped.jpeg"
+    x: "img/who-am-i/100B9880_cropped.jpg"
 
 # education
 education:
@@ -55,13 +49,21 @@ education:
   items:
     - university: "The University of Chicago"
       year: "2018"
-      degree: "A.B., Physics"
-      advisor: ""
+      degree: "A.B., Physics with a Concentration in Astrophysics"
+      thesis: "Thesis: The Distance to Sculptor via RR Lyrae Period-Luminosity Relations"
+      advisor: "Advisor: Dr. Wendy L. Freedman"
 
     - university: "The University of Texas at Austin"
-      year: "Expected Spring 2024"
-      degree: "Ph.D., Astronomy & Astrophysics"
-      advisor: "Advisor: Brendan P. Bowler"
+      year: "2021"
+      degree: "M.A., Astronomy"
+      thesis: "Thesis: Near-Infrared Radial Velocity Jitter of Young Sun-like Stars"
+      advisor: "Advisor: Dr. Brendan P. Bowler"
+
+    - university: "The University of Texas at Austin"
+      year: "2024"
+      degree: "Ph.D., Astronomy"
+      thesis: "Thesis: The Epoch of Giant Planet Migration: Searching for Young Planets in the Stellar Noise"
+      advisor: "Advisor: Dr. Brendan P. Bowler"
 
 # Client & Work
 client_and_work:
@@ -99,7 +101,11 @@ client_and_work:
                     This survey will measure the occurrence rate of close-in (<2.5 AU) giant planets,
                     compare this value with the frequency at older ages, and determine the dominant
                     migration mechanism of giant planets and its characteristic timescale (see right!).
-                    The first paper describing the survey design, data reduction pipeline, and initial results can be found below!'
+                    The first paper describing the survey design, data reduction pipeline, and initial results can be found below.'
+      button:
+        icon: "icon-arrow-right"
+        btnText: "NASA ADS Link"
+        URL: "https://ui.adsabs.harvard.edu/abs/2021AJ....161..173T/abstract"
       button:
         icon: "icon-arrow-right"
         btnText: "NASA ADS Link"
