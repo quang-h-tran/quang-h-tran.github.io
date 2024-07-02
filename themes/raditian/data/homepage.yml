@@ -3,12 +3,12 @@ showcase:
   enable: true
   title: "Quang H. Tran"
   description: '<p class="lead">
-                I am currently a <a target="_blank" href="https://www.hsfoundation.org/fellow/quang-h-tran/">2024 51 Pegasi b Fellow</a> at Yale University.
-                I obtained my doctorate degree from the University of Texas, Austin where I worked with <a target="_blank" href="http://www.as.utexas.edu/~bpbowler/index.html">Prof. Brendan P. Bowler</a>.
-                I<span>&#39;</span>m generally excited about all things astronomy, but my particular interests include giant planets, young stars, stellar variability, and astrostatistics.
+                I am an incoming a <a target="_blank" href="https://www.hsfoundation.org/fellow/quang-h-tran/">51 Pegasi b Fellow</a> at Yale University.
+                I am defending my PhD on July 24th, 2024 from the University of Texas, Austin. There, I worked with <a target="_blank" href="http://www.as.utexas.edu/~bpbowler/index.html">Prof. Brendan P. Bowler</a>
+                on topics like giant planets, young stars, stellar variability, and astrostatistics.
                 </p>
                 <p class="lead">
-                If you are interested in my work or collaborating, please take a look at my <a href="#CV">CV</a> or contact me below!
+                I<span>&#39;</span>m generally excited about all things astronomy, so if you are interested in my work or collaborating, please take a look at my <a href="#CV">CV</a> or contact me below!
                 </p>'
   image:
     x: "img/showcase/mcdonald_compressed_cropped.jpg"
@@ -31,9 +31,9 @@ about:
     </p>
     <p class="lead">
     My current research projects focus on searching for giant planets around young stars using precision radial velocities.
-    I am also working on how best to model and ultimately mitigate stellar activity signals in astronomical time series data
+    I am also working on how best to model stellar activity signals in astronomical time series data
     (particularly with Gaussian process regression).
-    In general, I want to understand the underlying, population-level demographics of planets through probabilistic data analysis techniques.
+    In general, I want to understand underlying, population-level demographics and constrain the evolution of planets through probabilistic data analysis techniques.
     </p>
     <p class="lead">
     When I<span>&#39;</span>m not doing research, I enjoy weightlifting, being bad at pool (always down for a game),
@@ -47,20 +47,17 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "The University of Chicago"
-      year: "2018"
+    - university: "2018, The University of Chicago"
       degree: "A.B., Physics with a Concentration in Astrophysics"
       thesis: "Thesis: The Distance to Sculptor via RR Lyrae Period-Luminosity Relations"
       advisor: "Advisor: Dr. Wendy L. Freedman"
 
-    - university: "The University of Texas at Austin"
-      year: "2021"
+    - university: "2021, The University of Texas at Austin"
       degree: "M.A., Astronomy"
       thesis: "Thesis: Near-Infrared Radial Velocity Jitter of Young Sun-like Stars"
       advisor: "Advisor: Dr. Brendan P. Bowler"
 
-    - university: "The University of Texas at Austin"
-      year: "2024"
+    - university: "2024, The University of Texas at Austin"
       degree: "Ph.D., Astronomy"
       thesis: "Thesis: The Epoch of Giant Planet Migration: Searching for Young Planets in the Stellar Noise"
       advisor: "Advisor: Dr. Brendan P. Bowler"
@@ -174,11 +171,11 @@ client_and_work:
 experience:
   enable: true
   title: "Select First-author <br /> Refereed Publications"
-  description: "First-author Refereed Publications: 4, Total Refereed Publications: 10.
+  description: "First-author Refereed Publications: 5, Total Refereed Publications: 10.
                 <br />
-                Total First-author Citations: 14, Total Citations: 49.
+                Total First-author Citations: 34, Total Citations: 148.
                 <br />
-                First-author <em>h</em>-index: 3, Total <em>h</em>-index: 4."
+                First-author <em>h</em>-index: 3, Total <em>h</em>-index: 8."
   button:
     icon: "icon-profile-fill"
     btnText: "Full CV [pdf]"
