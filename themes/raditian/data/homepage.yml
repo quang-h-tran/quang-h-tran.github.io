@@ -92,13 +92,14 @@ client_and_work:
     - title: "Evolution & Migration of Giant Planets"
       title_style: "font-size:28px"
       description: '<b>One of my primary research interests is how the orbits of giant planets evolve over time.</b>
-                    To answer this question, I am leading a 4-year precision radial velocity (PRV) survey
+                    To answer this question, I led a 4-year precision radial velocity (PRV) survey
                     targeting <span>&#8776;</span>100 intermediate-age (~20-200 Myr) Sun-like (GK dwarf) stars with the
-                    <a target="_blank" href="https://hpf.psu.edu/">Habitable-Zone Planet Finder (HPF)</a> spectrograph.
-                    This survey will measure the occurrence rate of close-in (<2.5 AU) giant planets,
+                    <a target="_blank" href="https://hpf.psu.edu/">Habitable-zone Planet Finder (HPF)</a> spectrograph.
+                    This survey is designed to measure the occurrence rate of close-in (a < 2.5 AU) giant planets,
                     compare this value with the frequency at older ages, and determine the dominant
                     migration mechanism of giant planets and its characteristic timescale (see right!).
-                    The first paper describing the survey design, data reduction pipeline, and initial results can be found below.'
+                    The first paper describing the survey design, data reduction pipeline, and initial results can be found below (left).
+                    The first discovery to emerge from the survey, the young hot Jupiter candidate HS Psc b, can also be found below (right)!'
       button:
         icon: "icon-arrow-right"
         btnText: "NASA ADS Link"
@@ -106,13 +107,14 @@ client_and_work:
       button2:
         icon: "icon-arrow-right"
         btnText: "NASA ADS Link"
-        URL: "https://ui.adsabs.harvard.edu/abs/2021AJ....161..173T/abstract"
+        URL: "https://ui.adsabs.harvard.edu/abs/2024AJ....167..193T/abstract"
       image:
         x: "img/works/paper1_plot.gif"
         hori: -200px
         vert: 35px
       is_even: true
       double_img: false
+      enable_button2: true
 
     - title: "Characterizing Individual Systems,
               <br/>
@@ -137,6 +139,7 @@ client_and_work:
         vert: 90px
       is_even: false
       double_img: false
+      enable_button2: false
 
     - title: "Modeling Stellar Activity Signals <br/> (with Gaussian Processes)"
       title_style: "font-size:28px"
@@ -165,13 +168,14 @@ client_and_work:
         vert: 85px
       is_even: true
       double_img: true
+      enable_button2: false
 
 
 # experience
 experience:
   enable: true
   title: "Select First-author <br /> Refereed Publications"
-  description: "First-author Refereed Publications: 5, Total Refereed Publications: 10.
+  description: "First-author Refereed Publications: 5, Total Refereed Publications: 14.
                 <br />
                 Total First-author Citations: 34, Total Citations: 148.
                 <br />
@@ -194,16 +198,24 @@ experience:
     URL: "https://scholar.google.com/citations?hl=en&user=Yl6rmCkAAAAJ"
 
   items:
+    - title: "The Epoch of Giant Planet Migration Planet Search Program. II. A Young Hot Jupiter Candidate around the AB Dor Member HS Psc"
+      company: "Tran, Q. H. et al., 2024, AJ, 167, 193"
+      url: "https://ui.adsabs.harvard.edu/abs/2024AJ....167..193T/abstract"
+
     - title: "Joint Modeling of Radial Velocities and Photometry with a Gaussian Process Framework"
-      company: "Tran, Q. H. et al; 2023, AJ, 950, 162"
+      company: "Tran, Q. H. et al., 2023, AJ, 950, 162"
       url: "https://ui.adsabs.harvard.edu/abs/2023ApJ...950..162T/abstract"
 
+    - title: "Distances to Local Group Galaxies via Population II, Stellar Distance Indicators. I. The Sculptor Dwarf Spheroidal"
+      company: "Tran, Q. H. et al., 2022 ApJ, 935, 34"
+      url: "https://ui.adsabs.harvard.edu/abs/2022ApJ...935...34T/abstract"
+
     - title: "TOI-1670 b and c: An Inner Sub-Neptune with an Outer Warm Jupiter Unlikely to Have Originated from High-eccentricity Migration"
-      company: "Tran, Q. H. et al; 2022 AJ, 163, 225"
+      company: "Tran, Q. H. et al., 2022 AJ, 163, 225"
       url: "https://ui.adsabs.harvard.edu/abs/2022AJ....163..225T/abstract"
 
-    - title: "The Epoch of Giant Planet Migration: A Near-Infrared RV Survey for Giant Planets Around Young Sun-like Stars"
-      company: "Tran, Q. H. et al; 2021, AJ, 161, 173"
+    - title: "The Epoch of Giant Planet Migration. I. A Near-Infrared RV Survey for Giant Planets Around Young Sun-like Stars"
+      company: "Tran, Q. H. et al., 2021, AJ, 161, 173"
       url: "https://ui.adsabs.harvard.edu/abs/2021AJ....161..173T/abstract"
 
 # testimonial

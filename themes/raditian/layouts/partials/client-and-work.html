@@ -12,6 +12,7 @@
         <p class="lead">
           {{ .description | safeHTML }}
         </p>
+        {{ if .enable_button2 }}
         <a style="font-size:15px;" target="_blank" href="{{ .button.URL }}" class="btn btn-info">
         <img width="22px" height="22px" style="float: left; margin-right: 10px;" src="../fonts/ads_partial_logo_dark_background.svg" alt="NASA ADS logo"/>
         {{ .button.btnText }}<i class="{{ .button.icon }}"></i
@@ -19,6 +20,11 @@
         <a style="font-size:15px;" target="_blank" href="{{ .button2.URL }}" class="btn btn-info">
         <img width="22px" height="22px" style="float: left; margin-right: 10px;" src="../fonts/ads_partial_logo_dark_background.svg" alt="NASA ADS logo"/>
         {{ .button2.btnText }}<i class="{{ .button2.icon }}"></i
+        ></a>
+        {{ else }}
+        <a style="font-size:15px;" target="_blank" href="{{ .button.URL }}" class="btn btn-info">
+        <img width="22px" height="22px" style="float: left; margin-right: 10px;" src="../fonts/ads_partial_logo_dark_background.svg" alt="NASA ADS logo"/>
+        {{ .button.btnText }}<i class="{{ .button.icon }}"></i
         ></a>
       </div>
       <div class="col-12 col-md-6 pl-md-0 text-right">
@@ -47,7 +53,17 @@
         <p class="lead">
           {{ .description | safeHTML }}
         </p>
-        <a style="font-size:15px;" href="#portfolio" onclick="window.open({{ .button.URL }})" class="btn btn-info">
+        {{ if .enable_button2 }}
+        <a style="font-size:15px;" target="_blank" href="{{ .button.URL }}" class="btn btn-info">
+        <img width="22px" height="22px" style="float: left; margin-right: 10px;" src="../fonts/ads_partial_logo_dark_background.svg" alt="NASA ADS logo"/>
+        {{ .button.btnText }}<i class="{{ .button.icon }}"></i
+        ></a>
+        <a style="font-size:15px;" target="_blank" href="{{ .button2.URL }}" class="btn btn-info">
+        <img width="22px" height="22px" style="float: left; margin-right: 10px;" src="../fonts/ads_partial_logo_dark_background.svg" alt="NASA ADS logo"/>
+        {{ .button2.btnText }}<i class="{{ .button2.icon }}"></i
+        ></a>
+        {{ else }}
+        <a style="font-size:15px;" target="_blank" href="{{ .button.URL }}" class="btn btn-info">
         <img width="22px" height="22px" style="float: left; margin-right: 10px;" src="../fonts/ads_partial_logo_dark_background.svg" alt="NASA ADS logo"/>
         {{ .button.btnText }}<i class="{{ .button.icon }}"></i
         ></a>
