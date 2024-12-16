@@ -3,7 +3,7 @@ showcase:
   enable: true
   title: "Quang H. Tran"
   description: '<p class="lead">
-                I am a <a target="_blank" href="https://www.hsfoundation.org/fellow/quang-h-tran/">51 Pegasi b Fellow</a> at Yale University working with <a target="_blank" href="http://www.astro.yale.edu/malenarice/">Prof. Malena Rice</a>
+                I am a <a target="_blank" href="https://www.hsfoundation.org/fellow/quang-h-tran/">51 Pegasi b Fellow</a> at Yale University working with <a target="_blank" href="http://www.astro.yale.edu/malenarice/">Prof. Malena Rice</a>.
                 I defended my PhD on July 24th, 2024 from the University of Texas, Austin. There, I worked with <a target="_blank" href="http://www.as.utexas.edu/~bpbowler/index.html">Prof. Brendan P. Bowler</a>
                 on topics like giant planets, young stars, stellar variability, and astrostatistics.
                 </p>
@@ -177,9 +177,9 @@ experience:
   title: "Select First-author <br /> Refereed Publications"
   description: "First-author Refereed Publications: 6, Total Refereed Publications: 14.
                 <br />
-                Total First-author Citations: 34, Total Citations: 148.
+                Total First-author Citations: 44, Total Citations: 224.
                 <br />
-                First-author <em>h</em>-index: 3, Total <em>h</em>-index: 8."
+                First-author <em>h</em>-index: 4, Total <em>h</em>-index: 8."
   button:
     icon: "icon-profile-fill"
     btnText: "Full CV [pdf]"
