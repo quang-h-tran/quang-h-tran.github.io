@@ -42,7 +42,7 @@ theme = "raditian"
 
   [[menu.header]]
   name = "Contact"
-  URL = "mailto:nhatquanghoangtran@gmail.edu"
+  URL = "mailto:quang.tran@yale.edu"
   weight = 5
 
 
@@ -63,7 +63,7 @@ theme = "raditian"
 
   [[menu.footer]]
   name = "Contact"
-  URL = "mailto:nhatquanghoangtran@gmail.com"
+  URL = "mailto:quang.tran@yale.edu"
   weight = 5
 
 
