@@ -3,8 +3,8 @@ showcase:
   enable: true
   title: "Quang H. Tran"
   description: '<p class="lead">
-                I am an incoming a <a target="_blank" href="https://www.hsfoundation.org/fellow/quang-h-tran/">51 Pegasi b Fellow</a> at Yale University.
-                I am defending my PhD on July 24th, 2024 from the University of Texas, Austin. There, I worked with <a target="_blank" href="http://www.as.utexas.edu/~bpbowler/index.html">Prof. Brendan P. Bowler</a>
+                I am a <a target="_blank" href="https://www.hsfoundation.org/fellow/quang-h-tran/">51 Pegasi b Fellow</a> at Yale University working with <a target="_blank" href="http://www.astro.yale.edu/malenarice/">Prof. Malena Rice</a>
+                I defended my PhD on July 24th, 2024 from the University of Texas, Austin. There, I worked with <a target="_blank" href="http://www.as.utexas.edu/~bpbowler/index.html">Prof. Brendan P. Bowler</a>
                 on topics like giant planets, young stars, stellar variability, and astrostatistics.
                 </p>
                 <p class="lead">
@@ -18,7 +18,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact Me"
-    URL: "mailto:quangtran@utexas.edu"
+    URL: "mailto:quang.tran@yale.edu"
 
 
 # about
@@ -198,6 +198,10 @@ experience:
     URL: "https://scholar.google.com/citations?hl=en&user=Yl6rmCkAAAAJ"
 
   items:
+    - title: "Gaussian Process Models Impact the Inferred Properties of Giant Planets around Active Stars"
+      company: "Tran, Q. H. & Bowler, B. P., 2024, AJ, 168, 183"
+      url: "https://ui.adsabs.harvard.edu/abs/2024AJ....168..183T/abstract"
+
     - title: "The Epoch of Giant Planet Migration Planet Search Program. II. A Young Hot Jupiter Candidate around the AB Dor Member HS Psc"
       company: "Tran, Q. H. et al., 2024, AJ, 167, 193"
       url: "https://ui.adsabs.harvard.edu/abs/2024AJ....167..193T/abstract"
@@ -256,13 +260,13 @@ contact:
     message: "Type Your Message Here"
   email:
     title: "Email:"
-    email: '<a target="_blank" href="mailto:quangtran@utexas.edu">quangtran@utexas.edu</a>'
+    email: '<a target="_blank" href="mailto:quang.tran@yale.edu">quang.tran@yale.edu</a>'
   address:
     title: "Address:"
-    address: "The University of Texas at Austin<br />
-              Department of Astronomy<br />
-              2515 Speedway, Stop C1400<br />
-              Austin, Texas 78712-1205"
+    address: "Yale University<br />
+              Kline Biology Tower<br />
+              219 Prospect St<br />
+              New Haven, CT 06511"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
